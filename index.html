@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#030014">
+  <title>Case Study — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Kembali ke atas"><span class="brand-mark">WS</span><span>My Portfolio<span>.</span></span></a>
+    <nav class="main-nav" aria-label="Navigasi utama">
+      <a href="#top">Home</a><a href="#intro">About</a><a class="active" href="#design">Projects</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <nav class="section-bar" aria-label="Navigasi studi kasus">
+    <a href="#intro">Overview</a><a href="#research">Research</a><a href="#analysis">Analysis</a><a href="#process">Design process</a><a href="#evaluation">Before / after</a><a href="#prototype">Prototype</a><a href="#conclusion">Conclusion</a>
+  </nav>
+  <main id="top">
+    <a class="back-link" href="#top"><span aria-hidden="true">←</span> Semua proyek</a>
+    <section class="hero reveal" aria-labelledby="page-title">
+      <div>
+        <span class="eyebrow">CASE STUDY / 01 &nbsp;·&nbsp; PERSONAL PROJECT</span>
+        <h1 id="page-title">Case<br><em>Study.</em></h1>
+        <p class="hero-copy">Menganalisis Masalah Yang Di Alami Dan Mencari SOlusi.</p>
+        <div class="hero-actions"><a class="button primary" href="#prototype">Lihat prototype <span>↗</span></a><a class="button" href="#intro">Jelajahi proses <span>↓</span></a></div>
+      </div>
+      <label class="hero-art media-card has-media" aria-label="Foto sampul studi kasus">
+        <input type="file" accept="image/*">
+        <img src="./assets/images/Logo SMK AF 52br.png" alt="Logo SMK AF 52">
+        <span class="media-label">COVER IMAGE</span>
+      </label>
+    </section>
+    <section class="meta-grid" aria-label="Informasi proyek">
+      <div class="meta-item"><span class="meta-label">PROJECT TYPE</span><span class="meta-value">UI/UX Case Study</span></div>
+      <div class="meta-item"><span class="meta-label">DELIVERABLE</span><span class="meta-value">Research, design & prototype</span></div>
+      <div class="meta-item"><span class="meta-label">TOOLS</span><span class="meta-value">Figma / VS Code</span></div>
+      <div class="meta-item"><span class="meta-label">STATUS</span><span class="meta-value">Konsep personal</span></div>
+    </section>
+
+    <section class="content-section" id="intro">
+      <div class="section-heading"><div><span class="kicker">01 / INTRODUCTION</span><h2>Masalah dan <em>solusi.</em></h2></div><p class="section-intro"></p></div>
+      <div class="overview">
+        <div><span class="overview-tag">OVERVIEW</span></div>
+        <div><h3>Problem</h3><p>Permasalahan Navigasi ditemukan pada menu profil, Khususnya pada menu Program Kerja dan Direktori PTk.Pada tampilannya yaitu kita tidak tahu ada sub menu baru di dalamnnya karena tidak ada navigasi / tanda yang menunjukkan ada sub menu lain di dalammnya.</p></div>
+        <div><h3>Project goal</h3><p>Saya menambahkan tanda agar pengguna dapat melihat sub menu yang tersedia.</p></div>
+      </div>
+      <div class="media-heading" id="research"><div><h3>Riset & kondisi awal</h3><p>Dokumentasi awal dan kondisi yang memicu perbaikan navigasi.</p></div><button class="media-add" type="button" data-add="research-media">＋ Tambah foto</button></div>
+      <div class="media-grid" id="research-media" data-kind="image">
+        <label class="media-card has-media"><input type="file" accept="image/*"><img src="./assets/images/permasalahan 1.png" alt="Permasalahan navigasi 1"><span class="media-label">Research / 01</span></label>
+        <label class="media-card has-media"><input type="file" accept="image/*"><img src="./assets/images/permasalahan 2.png" alt="Permasalahan navigasi 2"><span class="media-label">Research / 02</span></label>
+        <label class="media-card has-media"><input type="file" accept="image/*"><img src="./assets/images/permasalahan 3.png" alt="Permasalahan navigasi 3"><span class="media-label">Research / 03</span></label>
+      </div>
+      <div class="solution"><div><span class="kicker">PROPOSED SOLUTION</span><h3>Solusi yang saya rancang</h3></div><p>Saya menambahkan indikator sub-menu dan struktur navigasi yang lebih jelas agar pengguna langsung tahu bahwa ada opsi lain di dalam menu profil. Dengan pendekatan ini, alur pencarian informasi menjadi lebih intuitif, lebih cepat dipahami, dan lebih nyaman saat digunakan di desktop.</p></div>
+      <div class="role-grid"><div><b>My role</b><span>UI/UX Designer, Researcher</span></div><div><b>Timeline</b><span>Contoh: 4 minggu</span></div><div><b>Tools</b><span>Figma, FigJam, VS Code</span></div></div>
+    </section>
+
+    <section class="content-section" id="design">
+      <div class="section-heading"><div><span class="kicker">02 / DESIGN PROCESS</span><h2>Dari ide ke <em>desain.</em></h2></div><p class="section-intro"></p></div>
+      <div class="media-heading" id="analysis"><div><h3>Analisis & ideasi</h3><p>Foto sticky notes, user flow, atau hasil brainstorming.</p></div><button class="media-add" type="button" data-add="analysis-media">＋ Tambah foto</button></div>
+      <div class="media-grid" id="analysis-media" data-kind="image">
+        <label class="media-card has-media"><input type="file" accept="image/*"><img src="./assets/images/WhatsApp Image 2026-11-13 at 18.38.16.jpeg" alt="Analisis dokumentasi 1"><span class="media-label">Ideation / 01</span></label>
+        <label class="media-card has-media"><input type="file" accept="image/*"><img src="./assets/images/WhatsApp Image 2026-11-13 at 18.38.16 (1).jpeg" alt="Analisis dokumentasi 2"><span class="media-label">Ideation / 02</span></label>
+      </div>
+      <div class="media-heading" id="process"><div><h3>Proses perbaikan</h3><p></p></div><button class="media-add" type="button" data-add="process-media">＋ Tambah video</button></div>
+      <div class="process-list" id="process-media" data-kind="video">
+        <article class="process-card"><label class="media-card has-media"><input type="file" accept="video/*"><video src="./assets/videos/perbaikan.mp4" controls playsinline preload="metadata" autoplay loop muted></video><span class="media-label">PROCESS VIDEO / 01</span></label><div class="process-copy"><span class="kicker">PROCESS / 01</span><h3>Perbaikan navigasi desktop</h3><p>Saya memperbaiki tata letak menu profil dengan menambahkan indikator yang menunjukan adanya submenu. Tujuannya agar pengguna langsung memahami bahwa ada pilihan lain yang dapat dibuka tanpa bingung saat melihat struktur navigasi.</p></div></article>
+      </div>
+    </section>
+
+    <section class="content-section" id="evaluation">
+      <div class="section-heading"><div><span class="kicker">03 / EVALUATION</span><h2>Sebelum & <em>sesudah.</em></h2></div><p class="section-intro"></p></div>
+      <div class="compare-label"><span>Before / kondisi awal</span><span>After / solusi</span></div>
+      <div class="media-grid two" id="comparison-media" data-kind="image">
+        <label class="media-card has-media"><input type="file" accept="image/*"><img src="./assets/images/perbaikan1.png" alt="Before kondisi awal"><span class="media-label">BEFORE</span></label>
+        <label class="media-card has-media"><input type="file" accept="image/*"><img src="./assets/images/perbaikan2.png" alt="After solusi"><span class="media-label">AFTER</span></label>
+      </div>
+    </section>
+
+    <section class="content-section" id="prototype">
+      <div class="section-heading"><div><span class="kicker">04 / PROTOTYPE</span><h2>Coba <em>prototype.</em></h2></div><p class="section-intro"></p></div>
+      <div class="prototype-links"><a class="button primary" href="https://www.figma.com/" target="_blank" rel="noreferrer">Prototype desktop <span>↗</span></a></div>
+    </section>
+
+    <section class="content-section" id="conclusion">
+      <div class="section-heading"><div><span class="kicker">05 / CONCLUSION</span><h2>Kesimpulan <em>proyek.</em></h2></div><p class="section-intro"></p></div>
+      <div class="conclusion-grid"><article class="conclusion-card"><h3>Hasil perbaikan</h3><p>Hasil perbaikan ini menunjukkan bahwa navigasi menu profil lebih jelas karena adanya indikator yang menandai keberadaan submenu. Pengguna dapat langsung mengetahui bahwa masih ada opsi lain di dalam menu tanpa harus mencoba satu per satu.</p></article><article class="conclusion-card"><h3>Dampak bagi pengguna</h3><p>Dampaknya, proses pencarian informasi menjadi lebih cepat, lebih intuitif, dan lebih efisien saat digunakan di desktop. Pengguna tidak lagi kebingungan saat membuka menu profil karena struktur navigasi terlihat lebih rapi dan mudah dipahami.</p></article></div>
+    </section>
+    <footer id="contact"><span>PORTFOLIO CASE STUDY · 2026</span><a href="#top">Kembali ke atas ↑</a></footer>
+  </main>
+  <script src="./js/app.js"></script>
+</body>
+</html>

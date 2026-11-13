@@ -1,0 +1,1 @@
+Place permanent project screenshots, photos, and design exports in this folder.
